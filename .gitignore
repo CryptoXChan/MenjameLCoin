@@ -1,0 +1,34 @@
+src/*.exe
+src/menjamelcoin
+src/menjamelcoind
+src/test_menjamelcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.menjamelcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+#Makefile
+menjamelcoin-qt
+MenjamelCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+menjamelcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+#!src/leveldb-*/Makefile
